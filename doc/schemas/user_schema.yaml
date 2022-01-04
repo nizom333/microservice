@@ -1,0 +1,16 @@
+type: object
+required:
+  - email
+  - password
+properties:
+  id:
+    type: integer
+    format: int
+  email:
+    type: string
+  password:
+    type: string
+#  banned:
+#    type: boolean
+#  banReason:
+#    type: string

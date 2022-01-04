@@ -1,17 +1,17 @@
-require('dotenv').config();
 import { Module } from "@nestjs/common";
-import { AppController } from "./app.controller";
-import { AppService } from "./app.service";
 import { SequelizeModule } from "@nestjs/sequelize";
 import { ConfigModule } from "@nestjs/config";
+import { UsersModule } from './users/users.module';
+import { RolesModule } from './roles/roles.module';
+import { User } from "./users/users.model";
+import { Role } from "./roles/roles.model";
+import { UserRoles } from "./roles/user-roles.model";
+require('dotenv').config();
+
 
 @Module({
-    controllers: [
-        AppController
-    ],
-    providers: [
-        AppService
-    ],
+    controllers: [],
+    providers: [],
     imports: [
         ConfigModule.forRoot({
             envFilePath: '.env'
@@ -23,9 +23,11 @@ import { ConfigModule } from "@nestjs/config";
             username: process.env.POSTGRES_USER,
             password: process.env.POSTGRES_PASSWORD,
             database: process.env.POSTGRES_DB,
-            models: [],
+            models: [User, Role, UserRoles],
             autoLoadModels: true
         }),
+        UsersModule,
+        RolesModule,
     ],
 })
 export class AppModule {}

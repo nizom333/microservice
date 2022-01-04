@@ -30,7 +30,7 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - postgres:/var/lib/postgresql/data
     restart: always
 
   adminer:
@@ -38,7 +38,28 @@ services:
     image: adminer
     restart: always
     ports:
-      - 8080:8080
+      - 52827:8080
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "52826:80"
+
+  swagger-ui:
+    container_name: swagger_ui
+    image: swaggerapi/swagger-ui
+    ports:
+      - "8070:8080"
+    volumes:
+      - ./doc:/usr/share/nginx/html/doc
+    environment:
+      API_URL: doc/openapi.yaml
+    restart: always
 
 volumes:
-  pgdata:
+  postgres:

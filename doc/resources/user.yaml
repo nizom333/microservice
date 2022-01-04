@@ -1,0 +1,43 @@
+UserPath:
+  get:
+    tags:
+      - Users
+    summary: Get all Users
+    security:
+      - BearerAuth: []
+    responses:
+      '200':
+        $ref: '../responses/success_response.yaml'
+  post:
+    tags:
+      - User
+    summary: Create New User
+    requestBody:
+      content:
+        application/json:
+          schema:
+            $ref: '../schemas/user_schema.yaml'
+            example:
+              id: 1
+              email: user@gmail.com
+              password: 123456
+    responses:
+      '200':
+        $ref: '../responses/success_response.yaml'
+UserPathWithID:
+  get:
+    tags:
+      - User
+    summary: Get User by ID
+    security:
+      - BearerAuth: []
+    parameters:
+      - in: path
+        name: id
+        required: true
+        schema:
+          type: string
+          example: "1"
+    responses:
+      '200':
+        $ref : "../responses/success_response.yaml"
