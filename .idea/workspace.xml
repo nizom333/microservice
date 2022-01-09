@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a09675c6-1850-43e2-b59e-8e0c3f6cf273" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/checkapi.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/openapi.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/resources/check.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/resources/user.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/responses/success_response.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/schemas/security_schema.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/schemas/user_schema.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/jwt-auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/roles-auth.decorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/roles.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/validation.exception.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/files.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/files.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pipes/validation.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/dto/create-post.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/posts.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/posts.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/posts.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/posts.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/dto/create-role.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/roles.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/roles.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/roles.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/roles.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roles/user-roles.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/dto/add-role.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/dto/ban-user.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/dto/create-user.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="23SIDzpV0e46Wid9WMoFrkPt7BA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a09675c6-1850-43e2-b59e-8e0c3f6cf273" name="Changes" comment="" />
+      <created>1641720948927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641720948927</updated>
+      <workItem from="1641720949972" duration="28000" />
+      <workItem from="1641720990271" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/projectnest.js" />
+    </ignored-roots>
+  </component>
+</project>
