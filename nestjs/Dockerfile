@@ -1,6 +1,6 @@
 FROM node:12.13-alpine
 
-WORKDIR /app
+WORKDIR /nestjs
 
 COPY package*.json ./
 
