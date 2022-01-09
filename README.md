@@ -25,7 +25,7 @@ Additional commands for working with Docker
 The Nest project is still running in dev mode
 
 Developer
-1. [Nizamiddin Nazhmiddinov] (https://t.me/nizomiddin_n)
+1. [Nizomiddin Najmiddinov](https://t.me/nizomiddin_n)
 
 ---
 
